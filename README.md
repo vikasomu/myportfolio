@@ -29,16 +29,22 @@ npm run build:pages    # GitHub Pages build (with basePath)
 
 ## Deployment
 
-The site deploys to the `gh-pages` branch on every push to `main` via GitHub Actions.
+### Vercel (recommended)
 
-**One-time setup (required):** Enable GitHub Pages in your repo settings:
+**Live preview:** https://temporary-rapid-marimba-3kuoeyv.vercel.app
+
+To keep this deployment permanently, claim it at:
+https://vercel.com/claim-deployment?code=758cddd0-1be3-441d-b756-5c89c9da2226
+
+For automatic deploys on every push, connect the repo at https://vercel.com/new and import `vikasomu/myportfolio`.
+
+### GitHub Pages (alternative)
+
+The site also deploys to the `gh-pages` branch on every push to `main`.
 
 1. Go to https://github.com/vikasomu/myportfolio/settings/pages
-2. Under **Build and deployment → Source**, select **Deploy from a branch**
-3. Choose branch: `gh-pages` / folder: `/ (root)`
-4. Click **Save**
-
-Your site will be live at **https://vikasomu.github.io/myportfolio/**
+2. Source: **Deploy from a branch** → `gh-pages` / `/ (root)`
+3. Live at https://vikasomu.github.io/myportfolio/
 
 ## Content Source
 
