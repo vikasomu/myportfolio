@@ -33,9 +33,13 @@ jobs:
         env:
           GITHUB_PAGES: "true"
 
+      - name: Prepare GitHub Pages output
+        run: |
+          touch out/.nojekyll
+          rm -f out/CNAME
+
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          cname: false

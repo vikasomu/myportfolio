@@ -40,11 +40,14 @@ The temporary Vercel preview link can show **403 Forbidden** until you connect y
 
 ### GitHub Pages (free alternative)
 
-Files are published to the `gh-pages` branch automatically.
+**Important:** Your repo must be **Public** for GitHub Pages to work on a free account.
 
-1. Go to **https://github.com/vikasomu/myportfolio/settings/pages**
-2. Source: **Deploy from a branch** → `gh-pages` / `/ (root)` → **Save**
-3. Live at **https://vikasomu.github.io/myportfolio/** (may take 1–2 min)
+Files deploy to the `gh-pages` branch automatically.
+
+1. Make repo public: **https://github.com/vikasomu/myportfolio/settings** → Danger Zone → Change visibility → **Public**
+2. Enable Pages: **https://github.com/vikasomu/myportfolio/settings/pages**
+3. Source: **Deploy from a branch** → `gh-pages` / `/ (root)` → **Save**
+4. Live at **https://vikasomu.github.io/myportfolio/** (wait 1–2 min)
 
 ## Content Source
 
