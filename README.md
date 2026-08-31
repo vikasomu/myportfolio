@@ -29,7 +29,16 @@ npm run build:pages    # GitHub Pages build (with basePath)
 
 ## Deployment
 
-The site auto-deploys to GitHub Pages on every push to `main` via GitHub Actions.
+The site deploys to the `gh-pages` branch on every push to `main` via GitHub Actions.
+
+**One-time setup (required):** Enable GitHub Pages in your repo settings:
+
+1. Go to https://github.com/vikasomu/myportfolio/settings/pages
+2. Under **Build and deployment → Source**, select **Deploy from a branch**
+3. Choose branch: `gh-pages` / folder: `/ (root)`
+4. Click **Save**
+
+Your site will be live at **https://vikasomu.github.io/myportfolio/**
 
 ## Content Source
 
