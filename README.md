@@ -29,22 +29,22 @@ npm run build:pages    # GitHub Pages build (with basePath)
 
 ## Deployment
 
-### Vercel (recommended)
+### Vercel (recommended — permanent public URL)
 
-**Live preview:** https://temporary-rapid-marimba-3kuoeyv.vercel.app
+The temporary Vercel preview link can show **403 Forbidden** until you connect your own account. Deploy permanently in ~2 minutes:
 
-To keep this deployment permanently, claim it at:
-https://vercel.com/claim-deployment?code=758cddd0-1be3-441d-b756-5c89c9da2226
+1. Open **https://vercel.com/new/clone?repository-url=https://github.com/vikasomu/myportfolio**
+2. Click **Continue with GitHub** and authorize Vercel
+3. Click **Deploy** (no config changes needed — `vercel.json` is already set up)
+4. You'll get a permanent URL like `myportfolio.vercel.app`
 
-For automatic deploys on every push, connect the repo at https://vercel.com/new and import `vikasomu/myportfolio`.
+### GitHub Pages (free alternative)
 
-### GitHub Pages (alternative)
+Files are published to the `gh-pages` branch automatically.
 
-The site also deploys to the `gh-pages` branch on every push to `main`.
-
-1. Go to https://github.com/vikasomu/myportfolio/settings/pages
-2. Source: **Deploy from a branch** → `gh-pages` / `/ (root)`
-3. Live at https://vikasomu.github.io/myportfolio/
+1. Go to **https://github.com/vikasomu/myportfolio/settings/pages**
+2. Source: **Deploy from a branch** → `gh-pages` / `/ (root)` → **Save**
+3. Live at **https://vikasomu.github.io/myportfolio/** (may take 1–2 min)
 
 ## Content Source
 
