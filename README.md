@@ -2,6 +2,8 @@
 
 Premium dark-themed portfolio built with Next.js, React, Framer Motion, and Three.js.
 
+**Live site:** https://vikasomu.github.io/myportfolio/
+
 ## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
@@ -21,9 +23,13 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Build
 
 ```bash
-npm run build
-npm start
+npm run build          # local build
+npm run build:pages    # GitHub Pages build (with basePath)
 ```
+
+## Deployment
+
+The site auto-deploys to GitHub Pages on every push to `main` via GitHub Actions.
 
 ## Content Source
 
